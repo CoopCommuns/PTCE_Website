@@ -15,8 +15,7 @@ include 'cnx.php';
 //insertion des données
 $sql = $cnx->prepare("INSERT INTO TABLE utilisateur  VALUES (NULL,: nom,: prenom,: tel,: address_rue,: ville,: code_postale,: choixtype,: email,: motdepass)");
 
-// $exec = $res->execute(array(":nom"=> $nom,":prenom"=>$prenom,":tel"=>$télephone,":address"=>$address_rue,":ville"=>$ville,":codep"=>$code_postale,":choixtype"=> $choix,":email"=>  $email,":motdepass"=>  $mot_de_passe));
-
+//au début j'avais fait avec bindParam 
 $sql-> bindValue(':nom',  $_POST['nom'], PDO::PARAM_STR);
 $sql-> bindValue(':prenom',$_POST['prenom'],PDO::PARAM_STR);
 $sql-> bindValue(':tel', $_POST['tel'],PDO::PARAM_STR);
