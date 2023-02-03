@@ -29,19 +29,20 @@ include 'Header.php';
               
             </div>
 
-            <form class="row g-3 needs-validation py-5  " novalidate>
+            <form class="row g-3 needs-validation py-5  " novalidate methode="POST" action="insert.php">
             
             <div class="row ">
+              <div class="col-4">
+             
+                  <label for="nom" class="form-label">Nom</label>
+                  <input type="text" name="nom" class="form-control" id="nom" required>
+                  
+                </div>
+
               <div class="col-4">
                 <label for="prenom" class="form-label">Prenom</label>
                 <input type="text" name="prenom" class="form-control" id="prenom" required>
               </div>
-
-              <div class="col-4">
-                  <label for="nom" class="form-label">Nom</label>
-                  <input type="text" name="name" class="form-control" id="nom" required>
-                  
-                </div>
 
                 <div class="col-4">
                   <label for="ville" class="form-label">Tél</label>
@@ -50,10 +51,13 @@ include 'Header.php';
                 </div>
 
                 </div>
-                 
                 
             <div class="row">
                 
+            <div class="col">
+                  <label for="address" class="form-label">Address</label>
+                  <input type="text" name="address_rue" class="form-control" id="address" required>
+                </div>
 
                 <div class="col">
                   <label for="ville" class="form-label">Ville</label>
@@ -68,14 +72,14 @@ include 'Header.php';
             </div> 
             <di class="row">
                 <div class="form-check col">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="choixtype" id="choixtype">
+                        <label class="form-check-label" for="entreprise">
                             Entreprise
                         </label>
                 </div> 
                 <div class="form-check col">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
+                        <input class="form-check-input" type="radio" name="choixtype" id="choixtype" checked>
+                        <label class="form-check-label" for="admin">
                             Admin
                         </label>
                 </div>
@@ -101,7 +105,7 @@ include 'Header.php';
 
               <div class="col-12">
                 <label for="yourPassword" class="form-label">Mot de Pass</label>
-                <input type="password" name="password" class="form-control" id="yourPassword" required>
+                <input type="password" name="motdepass" class="form-control" id="yourPassword" required>
               
               </div>
 
@@ -113,7 +117,7 @@ include 'Header.php';
                 </div>
               </div>
               <div class="col-2 text-center">
-                <button class="btn btn-primary w-100" type="submit">Inscription</button>
+                <button class="btn btn-primary w-100" type="submit" name="insert" value="Insérer">Inscription</button>
               </div>
               
             </form>
