@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : mar. 31 jan. 2023 à 18:25
+-- Généré le : ven. 03 fév. 2023 à 18:56
 -- Version du serveur : 5.7.24
 -- Version de PHP : 8.1.0
 
@@ -31,10 +31,13 @@ CREATE TABLE `utilisateur` (
   `id_utilisateur` int(11) NOT NULL,
   `Nom` varchar(100) NOT NULL,
   `Prenom` varchar(100) NOT NULL,
-  `Email` varchar(100) NOT NULL,
-  `Sex` varchar(2) NOT NULL,
-  `type` varchar(100) NOT NULL,
-  `mot_de_pass` varchar(100) NOT NULL
+  `tél` int(11) DEFAULT NULL,
+  `adresse_rue` varchar(255) DEFAULT NULL,
+  `ville` varchar(100) DEFAULT NULL,
+  `code_postale` int(6) DEFAULT NULL,
+  `type_profil` varchar(100) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `mot_de_pass` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
