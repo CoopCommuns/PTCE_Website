@@ -30,7 +30,7 @@ include 'Header.php';
                     <p class="text-center small">j'ai dejà un compte?</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
+                  <form class="row g-3 needs-validation" novalidate >
 
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Email</label>
@@ -59,6 +59,7 @@ include 'Header.php';
                     <div class="col-12">
                       <p class="small mb-0">Vous n'avez pas de compte? <a href="../PHP/inscription.php">Créer un compte</a></p>
                     </div>
+
                   </form>
 
                 </div>
