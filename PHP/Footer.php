@@ -1,195 +1,96 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/87f52fdadc.js" crossorigin="anonymous"></script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-<!-- Footer -->
-<footer class="bg-dark text-center text-white ">
-  <!-- Grid container -->
-  <div class="container p-4 ">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline- btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f " ></i
-      ></a>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
 
-      <!-- Twitter -->
-      <a class="btn btn-outline-info btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet"> 
 
-      <!-- Google -->
-      <a class="btn btn-outline-info btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
+    <link rel="stylesheet" href="../fonts/icomoon/style.css"> 
+   
 
-      <!-- Instagram -->
-      <a class="btn btn-outline-info btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css"> 
+     
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../CSS/style.css"> 
 
-      <!-- Linkedin -->
-      <a class="btn btn-outline-info btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
+    <title>Footer </title>
+  </head>
+  <body>
+    <div class="content d-flex align-items-center bg-light">
+   
+    </div>
+    
+    <footer class="footer-20192">
+      <div class="site-section">
+        <div class="container">
 
-      <!-- Github -->
-      <a class="btn btn-outline-info btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control" />
-              <label class="form-label" for="form5Example21">Email address</label>
+          <div class="cta d-block d-md-flex align-items-center px-5">
+            <div>
+              <h2 class="mb-0">Ready for a next project?</h2>
+              <h3 class="text-dark">Let's get started!</h3>
+            </div>
+            <div class="ml-auto">
+              <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
             </div>
           </div>
-          <!--Grid column-->
+          <div class="row">
 
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-info mb-4">
-              Subscribe
-            </button>
+            <div class="col-sm">
+              <a href="#" class="footer-logo">Colorlib</a>
+              <p class="copyright">
+                <small>&copy; 2019</small>
+              </p>
+            </div>
+            <div class="col-sm">
+              <h3>Customers</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Buyer</a></li>
+                <li><a href="#">Supplier</a></li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <h3>Company</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <h3>Further Information</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Follow us</h3>
+              <ul class="list-unstyled social">
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                <li><a href="#"><span class="icon-medium"></span></a></li>
+                <li><a href="#"><span class="icon-paper-plane"></span></a></li>
+              </ul>
+            </div>
+            
           </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
-
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
       </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright: CoopCommuns
-  </div>
-  <!-- Copyright -->
-</footer>
-
-<!-- Footer -->
+    </footer>
 
 
-<!-- Bootstrap JS bundle →
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    
+    
+    <script src="../JS/jquery-3.3.1.min.js"></script>
+    <script src="../JS/popper.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+  </body>
+</html>

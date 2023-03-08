@@ -13,6 +13,7 @@ include 'Header.php';
     <script src="https://kit.fontawesome.com/87f52fdadc.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<?php include 'carrousel.php'; ?>
 <main>
     <div class="container">
 
@@ -30,7 +31,7 @@ include 'Header.php';
                     <p class="text-center small">j'ai dejà un compte?</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate >
+                  <form class="row g-3 needs-validation" novalidate action="">
 
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Email</label>
