@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>bienvenue Faiz</p>
+    <p>Bienvenue Admin!</p>
 </body>
 </html>

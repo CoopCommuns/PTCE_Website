@@ -14,6 +14,20 @@ if  (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST')
     $email_confirmation = $_POST['email_confirmation'];
     $mot_de_passe = $_POST['mot_de_passe'];
 
+   
+
+   //verification de l'email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo 'L\'adresse e-mail est invalide.';
+        exit;
+    }if (!preg_match('/^\+?[0-9]{10,14}$/', $tel)) {
+        echo 'Le numéro de téléphone est invalide.';
+        exit;}
+    // }if (strlen($mot_de_passe) < 16 || !preg_match('/[A-Za-z]/', $mot_de_passe) || !preg_match('/[0-9]/', $mot_de_passe) || !preg_match('/[\W]/', $mot_de_passe)) {
+    //     echo 'Le mot de passe doit comporter au moins 8 caractères, y compris des lettres, des chiffres et des caractères spéciaux.';
+    //     exit;
+    // }
+
     if ($email !== $email_confirmation) {
         echo 'Les adresses email ne correspondent pas.';
         exit;
@@ -35,7 +49,8 @@ if  (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST')
     $stmt->bindParam(':mot_de_passe', $mot_de_passe_hash);
     $stmt->execute();
 
-    echo 'Enregistrement réussi !';
-    
+   
+    header('Location: connexion.php');
+    exit;
 }
 ?>
