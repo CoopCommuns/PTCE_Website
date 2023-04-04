@@ -99,25 +99,16 @@
                                  </div>
                             </div>
                         </div>
-                        
 
-                        
-                        <div class="form-row p-t-10">
-                            <label class="label label--block">Profil</label>
-                            <div class="p-t-15">
-                                <label class="radio-container m-r-55">Entreprise
-                                    <input type="radio"  name="profil" value="Entreprise"required>
-                                    <span class="checkmark"></span>
-                                   
-                                </label>
-                                <label class="radio-container m-r-55">Admin
-                                    <input type="radio"  name="profil" value="Admin"required>
-                                    <span class="checkmark"></span>
-                                   
-                                </label>
+                        <div class="form-row ">
+                            <div class="name">Confirmation du mot de passe</div>
+                            <div class="value">
+                                 <div class="input-group">
+                                    <input class="input--style-5" type="password" id="passwd_confirmation" name="passwd_confirmation" required>
+                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="container-login100-form-btn m-t-15">
                             <button class="login100-form-btn" type="submit">
                                 Inscription

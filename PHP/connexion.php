@@ -22,7 +22,7 @@
 		<!-- Login Form -->
 		<form method="POST" action="Verifconnexion.php">
 			<input type="text" id="login"  name="email" placeholder="email">
-			<input type="text" id="password"  name="mot_de_pass" placeholder="mot de passe">
+			<input type="password" id="password"  name="mot_de_pass" placeholder="mot de passe">
 			<input type="submit"  value="Se connecter" name="connexion">
 		</form>
 
