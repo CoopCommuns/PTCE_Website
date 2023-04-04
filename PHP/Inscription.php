@@ -83,15 +83,6 @@
                         </div>
 
                         <div class="form-row ">
-                            <div class="name">Confirmation email</div>
-                            <div class="value">
-                                 <div class="input-group">
-                                    <input class="input--style-5" type="text" id="email_confirmation" name="email_confirmation" required>
-                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="form-row ">
                             <div class="name">Mot de passe</div>
                             <div class="value">
                                  <div class="input-group">
@@ -140,6 +131,6 @@
 
     <!-- Main JS-->
     <script src="../JS/global.js"></script>
-
+    <script src="../JS/Inscription.js"></script>
 </body>
 </html>
